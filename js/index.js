@@ -29,7 +29,6 @@ postUsernameElement.textContent = "@username2";
 const postLikeButtonElement = document.createElement("button");
 postLikeButtonElement.classList.add("post__button");
 postLikeButtonElement.textContent = "♥ Like";
-/* postLikeButtonElement.setAttribute("data-js", "like-button"); */
 postLikeButtonElement.addEventListener("click", handleLikeButtonClick);
 
 postFooterElement.appendChild(postUsernameElement);
